@@ -30,4 +30,9 @@ class Page extends CI_Controller
         ];
         $this->load->view('Page/index', $array);
     }
+
+    public function dashboard()
+    {
+        $this->load->view('Page/dashboard');
+    }
 }
