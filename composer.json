@@ -12,8 +12,7 @@
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"illuminate/database": "^9.9",
-		"illuminate/events": "^9.9"
+		"jenssegers/blade": "^1.4"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
